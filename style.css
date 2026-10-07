@@ -1,0 +1,150 @@
+
+.YCD_div_main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3{
+    color: blueviolet;
+    font-size: 3rem;
+}
+#btn_cambio{
+    color: #c390ce;
+    border: dotted;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.95rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.YCD_div1, .YCD_div2,.YCD_div3,.YCD_div4,
+.YCD_div5,.YCD_div6,.YCD_div7,.YCD_div8{
+    height: 10rem;
+    width: 16%;
+    border-radius: 15px;
+    padding: 6rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.YCD_div1:hover{
+    cursor: pointer;
+    background-color: rgb(186, 165, 211);
+    color: rgb(122, 107, 113);
+}
+
+.YCD_div2:hover{
+    cursor: pointer;
+    background-color: rgb(168, 165, 211);
+    color: rgb(122, 107, 113);
+}
+
+.YCD_div3:hover{
+    cursor: pointer;
+    background-color: rgb(165, 202, 211);
+    color: rgb(122, 107, 113);
+}
+
+.YCD_div4:hover{
+    cursor: pointer;
+    background-color: rgb(211, 165, 209);
+    color: rgb(122, 107, 113);
+}
+
+.YCD_div5:hover{
+    cursor: pointer;
+    background-color: rgb(204, 211, 165);
+    color: rgb(122, 107, 113);
+}
+
+.YCD_div6:hover{
+    cursor: pointer;
+    background-color: rgb(211, 179, 165);
+    color: rgb(122, 107, 113);
+}
+
+.YCD_div7:hover{
+    cursor: pointer;
+    background-color: rgb(211, 165, 165);
+    color: rgb(122, 107, 113);
+}
+
+.YCD_div8:hover{
+    cursor: pointer;
+    background-color: rgb(176, 211, 165);
+    color: rgb(122, 107, 113);
+}
+
+.modo_colorido .YCD_div1{
+    background-color: pink;
+}
+
+.modo_colorido .YCD_div2{
+    background-color: lightblue;
+}
+
+.modo_colorido .YCD_div3{
+    background-color: lightgreen;
+}
+
+.modo_colorido .YCD_div4{
+    background-color: violet;
+}
+
+.modo_colorido .YCD_div5{
+    background-color: orange;
+}
+
+.modo_colorido .YCD_div6{
+    background-color: lightcoral;
+}
+
+.modo_colorido .YCD_div7{
+    background-color: yellow;
+}
+
+.modo_colorido .YCD_div8{
+    background-color: lightseagreen;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .YCD_div1, .YCD_div2, .YCD_div3, .YCD_div4, 
+    .YCD_div5, .YCD_div6, .YCD_div7, .YCD_div8{
+        width: 50%;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .YCD_div1, .YCD_div2, .YCD_div3, .YCD_div4, 
+    .YCD_div5, .YCD_div6, .YCD_div7, .YCD_div8{
+        width: 70%;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .YCD_div1, .YCD_div2, .YCD_div3, .YCD_div4, 
+    .YCD_div5, .YCD_div6, .YCD_div7, .YCD_div8{
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.8rem;
+    }
+}
